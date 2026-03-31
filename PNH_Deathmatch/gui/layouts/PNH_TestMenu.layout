@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WindowWidget name="PNH_Root" size="1 1" align="center" halign="center" valign="center">
+    <PanelWidget name="MainPanel" color="0.05, 0.05, 0.05, 0.9" style="DayZDefaultPanel" size="450 550" align="center" halign="center" valign="center">
+        
+        <TextWidget name="txt_Title" text="PAINEL DE CONTROLO PNH" size="400 50" align="center" position="0 -220" style="Normal" font="gui/fonts/metron-bold22" color="1, 0.7, 0, 1" halign="center" valign="center" />
+
+        <TextWidget name="lbl_Admin" text="COMANDOS ADMIN" size="350 30" align="center" position="0 -140" style="Normal" font="gui/fonts/metron16" color="0.8, 0.2, 0.2, 1" halign="center" />
+        
+        <ButtonWidget name="btn_EndRound" text="ENCERRAR ROUND" size="350 50" align="center" position="0 -90" style="DayZDefaultButton" font="gui/fonts/metron22" />
+        <ButtonWidget name="btn_NextArena" text="PRÓXIMA ARENA" size="350 50" align="center" position="0 -30" style="DayZDefaultButton" font="gui/fonts/metron22" />
+
+        <PanelWidget name="Separator" color="1, 1, 1, 0.1" style="DayZDefaultPanel" size="380 2" align="center" position="0 30" />
+
+        <TextWidget name="lbl_Player" text="COMANDOS JOGADOR" size="350 30" align="center" position="0 60" style="Normal" font="gui/fonts/metron16" color="0.2, 0.7, 0.2, 1" halign="center" />
+
+        <ButtonWidget name="btn_Score" text="VER MEU SCORE" size="350 50" align="center" position="0 110" style="DayZDefaultButton" font="gui/fonts/metron22" />
+        <ButtonWidget name="btn_AutoRespawn" text="AUTO-RESPAWN (ON/OFF)" size="350 50" align="center" position="0 170" style="DayZDefaultButton" font="gui/fonts/metron22" />
+
+        <TextWidget name="txt_Footer" text="Versão 1.0 - Sistema de Teste PNH" size="400 20" align="center" position="0 250" style="Normal" font="gui/fonts/metron12" color="0.5, 0.5, 0.5, 1" halign="center" />
+    </PanelWidget>
+</WindowWidget>
